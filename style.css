@@ -1,0 +1,69 @@
+body
+{
+}
+
+.menu{
+	padding: 50px 0px;
+	margin: 0 auto;
+	position: relative;
+	background: rgba(0,0,0,1);
+	width: 450px;
+	height: 350px;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 250px;
+	border-radius: 400px;
+	-webkit-transition: background-color 0.5s ease-in-out;
+	-moz-transition: background-color 0.5s ease-in-out;
+	-o-transition: background-color 0.5s ease-in-out;
+	-ms-transition: background-color 0.5s ease-in-out;
+	transition: background-color 0.5s ease-in-out;
+}
+.menu:hover{
+	background: rgba(0,0,0,0.8);
+}
+.menu li{
+	font-size: 40px;
+	display: block;
+	line-height: 70px;
+	font-family: "BonvenoCF";
+}
+.menu li a{
+	white-space: nowrap;
+	color: transparent;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 1px #fff;
+	letter-spacing: 1px;
+	-moz-transform: scale(0.8); 
+	-ms-transform: scale(0.8); 
+	-o-transform: scale(0.8); 
+	-webkit-transform: scale(0.8); 
+	transform: scale(0.8);
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+.menu:hover li a{
+	text-shadow: 0px 0px 10px #fff;
+	text-decoration: none;
+}
+.menu li a:hover{
+	text-shadow: none;
+	color: #fff;
+	background: none;
+	-moz-transform: scale(1); 
+	-ms-transform: scale(1); 
+	-o-transform: scale(1); 
+	-webkit-transform: scale(1); 
+	transform: scale(1); 
+}
+
+/* Add my own fount */
+
+@font-face {
+    font-family: "BonvenoCF";
+    src: url(...\BonvenoCF\BonvenoCF.ttf)format("truetype");
+}
